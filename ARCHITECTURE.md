@@ -15,6 +15,7 @@ This document explains the internal architecture of the system, including data f
 | stroke:start, points |
 | stroke:end, undo, clear |
 
+---
 
 ### **Flow of a Draw Event**
 
