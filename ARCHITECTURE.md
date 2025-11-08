@@ -6,16 +6,8 @@ This document explains the internal architecture of the system, including data f
 
 ## 📡 1. High-Level Data Flow
 
-+-------------+ +--------------------+ +--------------+
-| Browser | <---> | WebSocket Server | <---> | Other Users |
-| (Canvas.js) | | (Node + Socket.IO) | | (Browsers) |
-+-------------+ +--------------------+ +--------------+
-| |
-| pointer events |
-| stroke:start, points |
-| stroke:end, undo, clear |
+![data_flow_diagram_simple](https://github.com/user-attachments/assets/6a4f0226-27cd-4aaf-b54b-bef1c37cbb05)
 
----
 
 ### **Flow of a Draw Event**
 
